@@ -1,0 +1,30 @@
+module Burrito(
+	input RegWrite,
+	input [4:0] Addr_op1,
+	input [4:0] Addr_op2,
+	input [4:0] Addr_Destino,
+	input [2:0] Operacion
+);
+
+wire [31:0] data_op1;
+wire [31:0] data_op2;
+wire [31:0] alu_result;
+
+BR BR_inst (
+	.AR1(Addr_op1),
+	.AR2(Addr_op2),
+	.AWrite(Addr_Destino),
+	.DataIn(alu_result),
+	.RegWrite(RegWrite),
+	.DR1(data_op1),
+	.DR2(data_op2)
+);
+
+ALU ALU_inst (
+	.op1(data_op1),
+	.op2(data_op2),
+	.op_sel(Operacion),
+	.result(alu_result)
+);
+
+endmodule
