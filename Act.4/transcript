@@ -1,0 +1,406 @@
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vlog -work work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:57:02 on Sep 22,2025
+# vlog -reportprogress 300 -work work -refresh -force_refresh 
+# -- Refreshing module ram_async
+# -- Refreshing module ram_async_tb
+# -- Refreshing module ram_sync
+# -- Refreshing module ram_sync_tb
+# -- Refreshing module rom
+# -- Refreshing module rom_tb
+# End time: 19:57:02 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:57:02 on Sep 22,2025
+# vcom -reportprogress 300 -work work -refresh -force_refresh 
+# -- Skipping module ram_async
+# -- Skipping module ram_async_tb
+# -- Skipping module ram_sync
+# -- Skipping module ram_sync_tb
+# -- Skipping module rom
+# -- Skipping module rom_tb
+# End time: 19:57:02 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:58:56 on Sep 22,2025
+# vlog -reportprogress 300 -work work -refresh -force_refresh 
+# -- Refreshing module ram_async
+# -- Refreshing module ram_async_tb
+# -- Refreshing module ram_sync
+# -- Refreshing module ram_sync_tb
+# -- Refreshing module rom
+# -- Refreshing module rom_tb
+# End time: 19:58:56 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:58:56 on Sep 22,2025
+# vcom -reportprogress 300 -work work -refresh -force_refresh 
+# -- Skipping module ram_async
+# -- Skipping module ram_async_tb
+# -- Skipping module ram_sync
+# -- Skipping module ram_sync_tb
+# -- Skipping module rom
+# -- Skipping module rom_tb
+# End time: 19:58:56 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vlog -work work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:41 on Sep 22,2025
+# vlog -reportprogress 300 -work work -refresh -force_refresh 
+# -- Refreshing module ram_async
+# -- Refreshing module ram_async_tb
+# -- Refreshing module ram_sync
+# -- Refreshing module ram_sync_tb
+# -- Refreshing module rom
+# -- Refreshing module rom_tb
+# End time: 20:02:41 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:41 on Sep 22,2025
+# vcom -reportprogress 300 -work work -refresh -force_refresh 
+# -- Skipping module ram_async
+# -- Skipping module ram_async_tb
+# -- Skipping module ram_sync
+# -- Skipping module ram_sync_tb
+# -- Skipping module rom
+# -- Skipping module rom_tb
+# End time: 20:02:41 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:52 on Sep 22,2025
+# vlog -reportprogress 300 -work work -refresh -force_refresh 
+# -- Refreshing module ram_async
+# -- Refreshing module ram_async_tb
+# -- Refreshing module ram_sync
+# -- Refreshing module ram_sync_tb
+# -- Refreshing module rom
+# -- Refreshing module rom_tb
+# End time: 20:02:52 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:02:53 on Sep 22,2025
+# vcom -reportprogress 300 -work work -refresh -force_refresh 
+# -- Skipping module ram_async
+# -- Skipping module ram_async_tb
+# -- Skipping module ram_sync
+# -- Skipping module ram_sync_tb
+# -- Skipping module rom
+# -- Skipping module rom_tb
+# End time: 20:02:53 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# Compile of BancoDeRegistros.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# Compile of BancoDeRegistros.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of BancoDeRegistros.v was successful.
+# Compile of BancoDeRegistros_tb.v was successful.
+vlog -work work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:45:01 on Sep 22,2025
+# vlog -reportprogress 300 -work work -refresh -force_refresh 
+# -- Refreshing module BancoDeRegistros
+# -- Refreshing module ram_async
+# -- Refreshing module ram_async_tb
+# -- Refreshing module ram_sync
+# -- Refreshing module ram_sync_tb
+# -- Refreshing module rom
+# -- Refreshing module rom_tb
+# End time: 20:45:01 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:45:01 on Sep 22,2025
+# vcom -reportprogress 300 -work work -refresh -force_refresh 
+# -- Skipping module BancoDeRegistros
+# -- Skipping module ram_async
+# -- Skipping module ram_async_tb
+# -- Skipping module ram_sync
+# -- Skipping module ram_sync_tb
+# -- Skipping module rom
+# -- Skipping module rom_tb
+# End time: 20:45:01 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# Compile of BancoDeRegistros.v was successful.
+# Compile of BancoDeRegistros_tb.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# Compile of BancoDeRegistros.v was successful.
+# Compile of BancoDeRegistros_tb.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# Compile of BancoDeRegistros.v was successful.
+# Compile of BancoDeRegistros_tb.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.BancoDeRegistros_tb
+# vsim work.BancoDeRegistros_tb 
+# Start time: 20:47:32 on Sep 22,2025
+# Loading work.BancoDeRegistros_tb
+# Loading work.BancoDeRegistros
+add wave -position end  sim:/BancoDeRegistros_tb/RR1
+add wave -position end  sim:/BancoDeRegistros_tb/RR2
+add wave -position end  sim:/BancoDeRegistros_tb/WriteRg
+add wave -position end  sim:/BancoDeRegistros_tb/WriteData
+add wave -position end  sim:/BancoDeRegistros_tb/RegWrite
+add wave -position end  sim:/BancoDeRegistros_tb/RD1
+add wave -position end  sim:/BancoDeRegistros_tb/RD2
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "Data.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros.v(17)
+#    Time: 0 ps  Iteration: 0  Instance: /BancoDeRegistros_tb/dut
+# ** Note: $finish    : C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros_tb.v(47)
+#    Time: 0 ps  Iteration: 0  Instance: /BancoDeRegistros_tb
+# 1
+# Break in Module BancoDeRegistros_tb at C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros_tb.v line 47
+run -all
+run -all
+run
+# Break key hit
+run -all
+run -all
+# Break key hit
+add wave -position end  sim:/BancoDeRegistros_tb/RR1
+add wave -position end  sim:/BancoDeRegistros_tb/RR2
+add wave -position end  sim:/BancoDeRegistros_tb/WriteRg
+add wave -position end  sim:/BancoDeRegistros_tb/WriteData
+add wave -position end  sim:/BancoDeRegistros_tb/RegWrite
+add wave -position end  sim:/BancoDeRegistros_tb/RD1
+add wave -position end  sim:/BancoDeRegistros_tb/RD2
+# Break key hit
+run -all
+vsim work.BancoDeRegistros_tb
+# End time: 21:01:50 on Sep 22,2025, Elapsed time: 0:14:18
+# Errors: 0, Warnings: 34
+# vsim work.BancoDeRegistros_tb 
+# Start time: 21:01:50 on Sep 22,2025
+# Loading work.BancoDeRegistros_tb
+# Loading work.BancoDeRegistros
+add wave -position end  sim:/BancoDeRegistros_tb/RR1
+add wave -position end  sim:/BancoDeRegistros_tb/RR2
+add wave -position end  sim:/BancoDeRegistros_tb/WriteRg
+add wave -position end  sim:/BancoDeRegistros_tb/WriteData
+add wave -position end  sim:/BancoDeRegistros_tb/RegWrite
+add wave -position end  sim:/BancoDeRegistros_tb/RD1
+add wave -position end  sim:/BancoDeRegistros_tb/RD2
+run -all
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '¿' in data on line 1 of file "Data.txt".    : C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros.v(17)
+#    Time: 0 ps  Iteration: 0  Instance: /BancoDeRegistros_tb/dut
+# ** Note: $finish    : C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros_tb.v(47)
+#    Time: 0 ps  Iteration: 0  Instance: /BancoDeRegistros_tb
+# 1
+# Break in Module BancoDeRegistros_tb at C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros_tb.v line 47
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run
+# Compile of rom.v was successful.
+# Compile of rom_tb.v was successful.
+# Compile of ram_async.v was successful.
+# Compile of ram_async_tb.v was successful.
+# Compile of ram_sync.v was successful.
+# Compile of ram_sync_tb.v was successful.
+# Compile of BancoDeRegistros.v was successful.
+# Compile of BancoDeRegistros_tb.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.BancoDeRegistros_tb
+# End time: 21:10:52 on Sep 22,2025, Elapsed time: 0:09:02
+# Errors: 0, Warnings: 3
+# vsim work.BancoDeRegistros_tb 
+# Start time: 21:10:52 on Sep 22,2025
+# Loading work.BancoDeRegistros_tb
+# Loading work.BancoDeRegistros
+add wave -position end  sim:/BancoDeRegistros_tb/RR1
+add wave -position end  sim:/BancoDeRegistros_tb/RR2
+add wave -position end  sim:/BancoDeRegistros_tb/WriteRg
+add wave -position end  sim:/BancoDeRegistros_tb/WriteData
+add wave -position end  sim:/BancoDeRegistros_tb/RegWrite
+add wave -position end  sim:/BancoDeRegistros_tb/RD1
+add wave -position end  sim:/BancoDeRegistros_tb/RD2
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '¿' in data on line 1 of file "C:/Users/Lilia/OneDrive/Documentos/Act.4/Data.txt".    : C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros.v(17)
+#    Time: 0 ps  Iteration: 0  Instance: /BancoDeRegistros_tb/dut
+# ** Note: $finish    : C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros_tb.v(47)
+#    Time: 0 ps  Iteration: 0  Instance: /BancoDeRegistros_tb
+# 1
+# Break in Module BancoDeRegistros_tb at C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros_tb.v line 47
+run -all
+run -all
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/BancoDeRegistros_tb/RR1
+add wave -position end  sim:/BancoDeRegistros_tb/RR2
+add wave -position end  sim:/BancoDeRegistros_tb/WriteRg
+add wave -position end  sim:/BancoDeRegistros_tb/WriteData
+add wave -position end  sim:/BancoDeRegistros_tb/RegWrite
+add wave -position end  sim:/BancoDeRegistros_tb/RD1
+add wave -position end  sim:/BancoDeRegistros_tb/RD2
+# Break key hit
+vsim work.BancoDeRegistros_tb
+# End time: 21:25:17 on Sep 22,2025, Elapsed time: 0:14:25
+# Errors: 0, Warnings: 2
+# vsim work.BancoDeRegistros_tb 
+# Start time: 21:25:17 on Sep 22,2025
+# Loading work.BancoDeRegistros_tb
+# Loading work.BancoDeRegistros
+add wave -position end  sim:/BancoDeRegistros_tb/RR1
+add wave -position end  sim:/BancoDeRegistros_tb/RR2
+add wave -position end  sim:/BancoDeRegistros_tb/WriteRg
+add wave -position end  sim:/BancoDeRegistros_tb/WriteData
+add wave -position end  sim:/BancoDeRegistros_tb/RegWrite
+add wave -position end  sim:/BancoDeRegistros_tb/RD1
+add wave -position end  sim:/BancoDeRegistros_tb/RD2
+# Compile of BancoDeRegistros.v was successful.
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '¿' in data on line 1 of file "C:/Users/Lilia/OneDrive/Documentos/Act.4/Data.txt".    : C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros.v(17)
+#    Time: 0 ps  Iteration: 0  Instance: /BancoDeRegistros_tb/dut
+# ** Note: $finish    : C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros_tb.v(47)
+#    Time: 0 ps  Iteration: 0  Instance: /BancoDeRegistros_tb
+# 1
+# Break in Module BancoDeRegistros_tb at C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros_tb.v line 47
+run -all
+run -all
+run
+run
+run
+run
+# End time: 19:13:56 on Sep 25,2025, Elapsed time: 69:48:39
+# Errors: 0, Warnings: 3

@@ -1,0 +1,33 @@
+module ram_async (
+    output reg [7:0] data_out,
+    input [7:0] data_in,
+    input [7:0] addr,
+    input wr, // Señal de escritura (1 para escribir, 0 para leer)
+    input en  // Señal de habilitación del chip
+);
+
+    // Memoria: 256 posiciones de 8 bits cada una
+    reg [7:0] memory[0:255];
+    
+    // Proceso always para gestionar lectura y escritura
+    always @* begin
+        if (en) begin
+            if (wr) begin
+                // Operación de escritura:
+                // Cuando wr=1 y en=1, se escribe data_in en la dirección addr
+                memory[addr] = data_in;
+                // En la escritura, la salida puede ser indefinida o mantener el último valor.
+                // Aquí la ponemos en alta impedancia para simular un bus de datos.
+                data_out = 8'hZZ; 
+            end else begin
+                // Operación de lectura:
+                // Cuando wr=0 y en=1, se lee el dato de la dirección addr
+                data_out = memory[addr];
+            end
+        end else begin
+            data_out = 8'hZZ;
+        end
+    end
+
+endmodule
+

@@ -1,0 +1,74 @@
+module ram_async_tb;
+
+    // Señales para conectar a la RAM
+    reg [7:0] data_in;
+    reg [7:0] addr;
+    reg wr;
+    reg en;
+    wire [7:0] data_out;
+
+    // Instancia de la RAM Asíncrona
+    ram_async uut (
+        .data_out(data_out),
+        .data_in(data_in),
+        .addr(addr),
+        .wr(wr),
+        .en(en)
+    );
+
+    // Proceso de simulación
+    initial begin
+        $display("Iniciando la simulación de la RAM Asíncrona...");
+        
+        // Inicializar señales
+        en = 0;
+        wr = 0;
+        addr = 8'd0;
+        data_in = 8'd0;
+
+        // Habilitar el chip
+        #10 en = 1;
+
+        // --- CASOS DE PRUEBA ---
+
+        // Caso 1: Escribir el valor 15 en la dirección 1
+        #10 wr = 1;
+        addr = 8'd1;
+        data_in = 8'd15;
+        #10 $display("Escribiendo %d en la direccion %d", data_in, addr);
+
+        // Caso 2: Escribir el valor 120 en la dirección 10
+        #10 addr = 8'd10;
+        data_in = 8'd120;
+        #10 $display("Escribiendo %d en la direccion %d", data_in, addr);
+
+        // Caso 3: Leer el valor de la dirección 1
+        #10 wr = 0; // Cambiar a modo lectura
+        addr = 8'd1;
+        #10 $display("Leyendo de la direccion %d. Valor esperado: 15. Valor leido: %d", addr, data_out);
+
+        // Caso 4: Escribir el valor 99 en la dirección 50
+        #10 wr = 1; // Modo escritura
+        addr = 8'd50;
+        data_in = 8'd99;
+        #10 $display("Escribiendo %d en la direccion %d", data_in, addr);
+
+        // Caso 5: Leer el valor de la dirección 10
+        #10 wr = 0; // Modo lectura
+        addr = 8'd10;
+        #10 $display("Leyendo de la direccion %d. Valor esperado: 120. Valor leido: %d", addr, data_out);
+        
+        // Caso 6: Leer el valor de la dirección 50
+        #10 addr = 8'd50;
+        #10 $display("Leyendo de la direccion %d. Valor esperado: 99. Valor leido: %d", addr, data_out);
+        
+        // Deshabilitar el chip y verificar salida en alta impedancia
+        #10 en = 0;
+        #10 $display("Chip deshabilitado. Salida: %z", data_out);
+        
+        // Finalizar simulación
+        #10 $finish;
+    end
+
+endmodule
+

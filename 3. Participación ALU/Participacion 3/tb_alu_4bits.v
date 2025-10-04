@@ -1,0 +1,41 @@
+`timescale 1ns / 1ps
+
+module tb_alu_4bit();
+    reg [3:0] A;
+    reg [3:0] B;
+    reg [1:0] op_sel;
+    wire [3:0] result;
+    
+    alu_4bit uut(
+        .A(A),
+        .B(B),
+        .op_sel(op_sel),
+        .result(result)
+    );
+    
+    initial begin
+        A = 4'b0000;
+        B = 4'b0000;
+        op_sel = 2'b00;
+        
+        //12 + 4 = 0
+        #10 A = 4'b1100; B = 4'b0100; op_sel = 2'b00;
+        
+        //15 AND 10 = 10
+        #10 A = 4'b1111; B = 4'b1010; op_sel = 2'b01;
+        
+        //5 + 3 = 8
+        #10 A = 4'b0101; B = 4'b0011; op_sel = 2'b00;
+        
+        //5 AND 3 = 1
+        #10 A = 4'b0101; B = 4'b0011; op_sel = 2'b01;
+        
+        //12 AND 3 = 0
+        #10 A = 4'b1100; B = 4'b0011; op_sel = 2'b01;
+        
+        // Finalizar simulación
+        #10 $finish;
+    end
+    
+    
+endmodule

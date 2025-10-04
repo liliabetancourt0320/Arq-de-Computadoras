@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vALU
+Z0 !s110 1759206189
+!i10b 1
+!s100 HBk0e7cn=g:<V<H43l_io2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;NhlhN9AH`@i:hW>R0z^M0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Lilia/OneDrive/Documentos/B+ALU
+w1759202720
+8C:/Users/Lilia/OneDrive/Documentos/B+ALU/ALU.v
+FC:/Users/Lilia/OneDrive/Documentos/B+ALU/ALU.v
+!i122 15
+L0 1 19
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1759206188.000000
+!s107 C:/Users/Lilia/OneDrive/Documentos/B+ALU/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lilia/OneDrive/Documentos/B+ALU/ALU.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@a@l@u
+vBR
+Z8 !s110 1759206188
+!i10b 1
+!s100 PN@j7Y4<o5K1gaR]emToW1
+R1
+IT8ZjTUVGnk>BU=1`0=9oH3
+R2
+R3
+w1759206184
+8C:/Users/Lilia/Downloads/BR.v
+FC:/Users/Lilia/Downloads/BR.v
+!i122 13
+L0 1 33
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Lilia/Downloads/BR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lilia/Downloads/BR.v|
+!i113 1
+R6
+R7
+n@b@r
+vBurrito
+R8
+!i10b 1
+!s100 1@7Ia7<cPS<KD8OnkoRDS2
+R1
+I3@RCHogc9<=M2oM2b0KAi2
+R2
+R3
+w1759202717
+8C:/Users/Lilia/Downloads/Burrito.v
+FC:/Users/Lilia/Downloads/Burrito.v
+!i122 14
+L0 1 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Lilia/Downloads/Burrito.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lilia/Downloads/Burrito.v|
+!i113 1
+R6
+R7
+n@burrito
+vBurritoTB
+R0
+!i10b 1
+!s100 zVfXn=4AUH06jhzo3m:gk0
+R1
+IZX@>PT;RD01<ScFl;GY8Z3
+R2
+R3
+w1759202764
+8C:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v
+FC:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v
+!i122 16
+L0 3 46
+R4
+r1
+!s85 0
+31
+!s108 1759206189.000000
+!s107 C:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v|
+!i113 1
+R6
+R7
+n@burrito@t@b

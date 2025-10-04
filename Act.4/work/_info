@@ -1,0 +1,198 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vBancoDeRegistros
+!s110 1758597996
+!i10b 1
+!s100 _:IJ]XU@B8GO@?Y1U=Vb^1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IDEC1`TklmIE0m=Ga[WOan3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Lilia/OneDrive/Documentos/Act.4
+w1758597858
+8C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros.v
+FC:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros.v
+!i122 113
+L0 1 31
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1758597996.000000
+!s107 C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@banco@de@registros
+vBancoDeRegistros_tb
+Z6 !s110 1758597020
+!i10b 1
+!s100 lOQ[ab]QTO9Y3VNaJ_5N_3
+R0
+I4VLFdE=l:TIaKc=Q8;Nl00
+R1
+R2
+w1758595711
+8C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros_tb.v
+FC:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros_tb.v
+!i122 112
+L0 1 50
+R3
+r1
+!s85 0
+31
+Z7 !s108 1758597020.000000
+!s107 C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lilia/OneDrive/Documentos/Act.4/BancoDeRegistros_tb.v|
+!i113 1
+R4
+R5
+n@banco@de@registros_tb
+vram_async
+Z8 !s110 1758597019
+!i10b 1
+!s100 dMnSbnBD8>VDIP28zACAD0
+R0
+I51]RhJXHl8_0^ga]B]=[o1
+R1
+R2
+Z9 w1758522275
+8C:/Users/Lilia/OneDrive/Documentos/Act.4/ram_async.v
+FC:/Users/Lilia/OneDrive/Documentos/Act.4/ram_async.v
+!i122 107
+L0 1 32
+R3
+r1
+!s85 0
+31
+Z10 !s108 1758597019.000000
+!s107 C:/Users/Lilia/OneDrive/Documentos/Act.4/ram_async.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lilia/OneDrive/Documentos/Act.4/ram_async.v|
+!i113 1
+R4
+R5
+vram_async_tb
+R6
+!i10b 1
+!s100 D1Z2:;Wd0z9Cz2GIe>K0b2
+R0
+I[iD:VNO^CKdo1>>f@IEId2
+R1
+R2
+w1758522274
+8C:/Users/Lilia/OneDrive/Documentos/Act.4/ram_async_tb.v
+FC:/Users/Lilia/OneDrive/Documentos/Act.4/ram_async_tb.v
+!i122 108
+L0 1 64
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Lilia/OneDrive/Documentos/Act.4/ram_async_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lilia/OneDrive/Documentos/Act.4/ram_async_tb.v|
+!i113 1
+R4
+R5
+vram_sync
+R6
+!i10b 1
+!s100 1K_cl04;[DH[03YiW[4]E3
+R0
+I1:[KEjIYCE^mf1M^XD2ZR3
+R1
+R2
+w1758516933
+8C:/Users/Lilia/OneDrive/Documentos/Act.4/ram_sync.v
+FC:/Users/Lilia/OneDrive/Documentos/Act.4/ram_sync.v
+!i122 109
+L0 1 26
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Lilia/OneDrive/Documentos/Act.4/ram_sync.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lilia/OneDrive/Documentos/Act.4/ram_sync.v|
+!i113 1
+R4
+R5
+vram_sync_tb
+R6
+!i10b 1
+!s100 HZAG@giPfTEPVfC`CYBgG2
+R0
+IWiZkDQiaYPgF?1IaQNAeJ0
+R1
+R2
+w1758522266
+8C:/Users/Lilia/OneDrive/Documentos/Act.4/ram_sync_tb.v
+FC:/Users/Lilia/OneDrive/Documentos/Act.4/ram_sync_tb.v
+!i122 110
+L0 1 81
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Lilia/OneDrive/Documentos/Act.4/ram_sync_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lilia/OneDrive/Documentos/Act.4/ram_sync_tb.v|
+!i113 1
+R4
+R5
+vrom
+R8
+!i10b 1
+!s100 5zHo97ffi4eF?DhL51k9`2
+R0
+ITE?8@O^PZXGm8[WBP8AfM3
+R1
+R2
+w1758511630
+8C:/Users/Lilia/Downloads/rom.v
+FC:/Users/Lilia/Downloads/rom.v
+!i122 105
+L0 2 32
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Lilia/Downloads/rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lilia/Downloads/rom.v|
+!i113 1
+R4
+R5
+vrom_tb
+R8
+!i10b 1
+!s100 X<cSUV8ze7_GDS]F00Mb_2
+R0
+ISh<mCnMVSWOXlPL35>CU83
+R1
+R2
+R9
+8C:/Users/Lilia/OneDrive/Documentos/Act.4/rom_tb.v
+FC:/Users/Lilia/OneDrive/Documentos/Act.4/rom_tb.v
+!i122 106
+L0 1 42
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Lilia/OneDrive/Documentos/Act.4/rom_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Lilia/OneDrive/Documentos/Act.4/rom_tb.v|
+!i113 1
+R4
+R5

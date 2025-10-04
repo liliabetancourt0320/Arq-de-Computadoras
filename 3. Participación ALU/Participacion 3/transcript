@@ -1,0 +1,73 @@
+# Compile of alu_4bits.v was successful.
+# Compile of tb_alu_4bits.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of alu_4bits.v was successful.
+# Compile of tb_alu_4bits.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.alu_4bit work.tb_alu_4bit
+# vsim work.alu_4bit work.tb_alu_4bit 
+# Start time: 15:48:27 on Aug 30,2025
+# Loading work.alu_4bit
+# Loading work.tb_alu_4bit
+add wave -position end  sim:/alu_4bit/ADD
+add wave -position end  sim:/alu_4bit/AND
+add wave -position end  sim:/alu_4bit/A
+add wave -position end  sim:/alu_4bit/B
+add wave -position end  sim:/alu_4bit/op_sel
+add wave -position end  sim:/alu_4bit/result
+run
+# Tiempo: 0 | A=0000 B=0000 | Op=00 | Result=0000 (0)
+force -freeze {sim:/alu_4bit/A[0]} 0 0
+force -freeze {sim:/alu_4bit/A[1]} 0 0
+force -freeze {sim:/alu_4bit/A[2]} 1 0
+force -freeze {sim:/alu_4bit/A[3]} 1 0
+force -freeze {sim:/alu_4bit/B[0]} 0 0
+force -freeze {sim:/alu_4bit/B[1]} 0 0
+force -freeze {sim:/alu_4bit/B[2]} 1 0
+force -freeze {sim:/alu_4bit/B[3]} 0 0
+force -freeze {sim:/alu_4bit/op_sel[0]} 0 0
+force -freeze {sim:/alu_4bit/op_sel[1]} 0 0
+run
+force -freeze {sim:/alu_4bit/A[0]} 1 0
+force -freeze {sim:/alu_4bit/A[1]} 1 0
+force -freeze {sim:/alu_4bit/A[2]} St1 0
+force -freeze {sim:/alu_4bit/B[3]} 1 0
+force -freeze {sim:/alu_4bit/B[2]} 0 0
+force -freeze {sim:/alu_4bit/B[1]} 1 0
+force -freeze {sim:/alu_4bit/op_sel[1]} St0 0
+force -freeze {sim:/alu_4bit/op_sel[0]} 1 0
+force -freeze {sim:/alu_4bit/op_sel[1]} 1 0
+force -freeze {sim:/alu_4bit/op_sel[0]} 0 0
+force -freeze {sim:/alu_4bit/op_sel[1]} St1 0
+force -freeze {sim:/alu_4bit/op_sel[1]} 1 0
+force -freeze {sim:/alu_4bit/op_sel[1]} 0 0
+force -freeze {sim:/alu_4bit/op_sel[0]} 1 0
+# Compile of alu_4bits.v was successful.
+run
+force -freeze {sim:/alu_4bit/B[3]} 0 0
+force -freeze {sim:/alu_4bit/B[1]} 0 0
+force -freeze {sim:/alu_4bit/B[0]} 1 0
+run
+force -freeze {sim:/alu_4bit/B[1]} 1 0
+force -freeze {sim:/alu_4bit/A[3]} 0 0
+force -freeze {sim:/alu_4bit/A[1]} 0 0
+force -freeze {sim:/alu_4bit/A[2]} St1 0
+force -freeze {sim:/alu_4bit/A[3]} 1 0
+force -freeze {sim:/alu_4bit/A[0]} 0 0
+force -freeze {sim:/alu_4bit/B[3]} St0 0
+force -freeze {sim:/alu_4bit/B[2]} St0 0
+force -freeze {sim:/alu_4bit/B[1]} St1 0
+force -freeze {sim:/alu_4bit/B[0]} St1 0
+run
+force -freeze {sim:/alu_4bit/A[3]} 0 0
+force -freeze {sim:/alu_4bit/A[2]} St1 0
+force -freeze {sim:/alu_4bit/A[0]} 1 0
+force -freeze {sim:/alu_4bit/op_sel[0]} 0 0
+run
+force -freeze {sim:/alu_4bit/op_sel[0]} 1 0
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Lilia/OneDrive/Documentos/Participacion 3/wave.do}
+# Compile of alu_4bits.v was successful.
+# Compile of tb_alu_4bits.v was successful.
+# 2 compiles, 0 failed with no errors.
+# End time: 16:54:51 on Aug 30,2025, Elapsed time: 1:06:24
+# Errors: 0, Warnings: 5

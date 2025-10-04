@@ -1,0 +1,271 @@
+# Compile of BR.v failed with 1 errors.
+# Compile of Burrito.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BurritoTB.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of BR.v failed with 1 errors.
+# Compile of BR.v failed with 1 errors.
+# Compile of Burrito.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BurritoTB.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of BR.v failed with 2 errors.
+# Compile of BR.v failed with 1 errors.
+# Compile of BR.v failed with 1 errors.
+# Compile of BR.v was successful with warnings.
+vsim work.BurritoTB
+# vsim work.BurritoTB 
+# Start time: 21:06:06 on Sep 29,2025
+# Loading work.BurritoTB
+# Loading work.Burrito
+# ** Error: (vsim-3033) Instantiation of 'BancoRegistros' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /BurritoTB/dut File: C:/Users/Lilia/Downloads/Burrito.v Line: 13
+#         Searched libraries:
+#             C:/Users/Lilia/OneDrive/Documentos/B+ALU/work
+# Loading work.ALU
+# Error loading design
+# End time: 21:06:07 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 13
+vsim work.BurritoTB
+# vsim work.BurritoTB 
+# Start time: 21:06:12 on Sep 29,2025
+# Loading work.BurritoTB
+# Loading work.Burrito
+# ** Error: (vsim-3033) Instantiation of 'BancoRegistros' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /BurritoTB/dut File: C:/Users/Lilia/Downloads/Burrito.v Line: 13
+#         Searched libraries:
+#             C:/Users/Lilia/OneDrive/Documentos/B+ALU/work
+# Loading work.ALU
+# Error loading design
+vsim work.BurritoTB
+# End time: 21:06:13 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# vsim work.BurritoTB 
+# Start time: 21:06:13 on Sep 29,2025
+# Loading work.BurritoTB
+# Loading work.Burrito
+# ** Error: (vsim-3033) Instantiation of 'BancoRegistros' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /BurritoTB/dut File: C:/Users/Lilia/Downloads/Burrito.v Line: 13
+#         Searched libraries:
+#             C:/Users/Lilia/OneDrive/Documentos/B+ALU/work
+# Loading work.ALU
+# Error loading design
+# End time: 21:06:14 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.BurritoTB
+# vsim work.BurritoTB 
+# Start time: 21:06:16 on Sep 29,2025
+# Loading work.BurritoTB
+# Loading work.Burrito
+# ** Error: (vsim-3033) Instantiation of 'BancoRegistros' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /BurritoTB/dut File: C:/Users/Lilia/Downloads/Burrito.v Line: 13
+#         Searched libraries:
+#             C:/Users/Lilia/OneDrive/Documentos/B+ALU/work
+# Loading work.ALU
+# Error loading design
+# End time: 21:06:17 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.BurritoTB
+# vsim work.BurritoTB 
+# Start time: 21:06:50 on Sep 29,2025
+# Loading work.BurritoTB
+# Loading work.Burrito
+# ** Error: (vsim-3033) Instantiation of 'BancoRegistros' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /BurritoTB/dut File: C:/Users/Lilia/Downloads/Burrito.v Line: 13
+#         Searched libraries:
+#             C:/Users/Lilia/OneDrive/Documentos/B+ALU/work
+# Loading work.ALU
+# Error loading design
+# End time: 21:06:50 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of Burrito.v was successful.
+# Compile of Burrito.v was successful.
+vsim work.BurritoTB
+# vsim work.BurritoTB 
+# Start time: 21:09:29 on Sep 29,2025
+# Loading work.BurritoTB
+# Loading work.Burrito
+# Loading work.BR
+# Loading work.ALU
+add wave -position end  sim:/BurritoTB/RegWrite
+add wave -position end  sim:/BurritoTB/Addr_op1
+add wave -position end  sim:/BurritoTB/Addr_op2
+add wave -position end  sim:/BurritoTB/Addr_Destino
+add wave -position end  sim:/BurritoTB/Operacion
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "Datos.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Lilia/Downloads/BR.v(16)
+#    Time: 0 ps  Iteration: 0  Instance: /BurritoTB/dut/BR_inst
+run -all
+run -all
+run -all
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Break key hit
+# Break key hit
+vsim work.BurritoTB
+# End time: 21:12:43 on Sep 29,2025, Elapsed time: 0:03:14
+# Errors: 0, Warnings: 4
+# vsim work.BurritoTB 
+# Start time: 21:12:43 on Sep 29,2025
+# Loading work.BurritoTB
+# Loading work.Burrito
+# Loading work.BR
+# Loading work.ALU
+add wave -position end  sim:/BurritoTB/RegWrite
+add wave -position end  sim:/BurritoTB/Addr_op1
+add wave -position end  sim:/BurritoTB/Addr_op2
+add wave -position end  sim:/BurritoTB/Addr_Destino
+add wave -position end  sim:/BurritoTB/Operacion
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "Datos.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Lilia/Downloads/BR.v(16)
+#    Time: 0 ps  Iteration: 0  Instance: /BurritoTB/dut/BR_inst
+# Break key hit
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BurritoTB.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.BurritoTB
+# End time: 21:31:39 on Sep 29,2025, Elapsed time: 0:18:56
+# Errors: 0, Warnings: 3
+# vsim work.BurritoTB 
+# Start time: 21:31:39 on Sep 29,2025
+# Loading work.BurritoTB
+# Loading work.Burrito
+# Loading work.BR
+# Loading work.ALU
+add wave -position end  sim:/BurritoTB/RegWrite
+add wave -position end  sim:/BurritoTB/Addr_op1
+add wave -position end  sim:/BurritoTB/Addr_op2
+add wave -position end  sim:/BurritoTB/Addr_Destino
+add wave -position end  sim:/BurritoTB/Operacion
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "Datos.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Lilia/Downloads/BR.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /BurritoTB/dut/BR_inst
+# ** Note: $finish    : C:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v(45)
+#    Time: 50 ns  Iteration: 0  Instance: /BurritoTB
+# 1
+# Break in Module BurritoTB at C:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v line 45
+# Break key hit
+# Break key hit
+vsim work.BurritoTB
+# End time: 21:36:44 on Sep 29,2025, Elapsed time: 0:05:05
+# Errors: 0, Warnings: 2
+# vsim work.BurritoTB 
+# Start time: 21:36:44 on Sep 29,2025
+# Loading work.BurritoTB
+# Loading work.Burrito
+# Loading work.BR
+# Loading work.ALU
+add wave -position end  sim:/BurritoTB/RegWrite
+add wave -position end  sim:/BurritoTB/Addr_op1
+add wave -position end  sim:/BurritoTB/Addr_op2
+add wave -position end  sim:/BurritoTB/Addr_Destino
+add wave -position end  sim:/BurritoTB/Operacion
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "Datos.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Lilia/Downloads/BR.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /BurritoTB/dut/BR_inst
+# ** Note: $finish    : C:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v(45)
+#    Time: 50 ns  Iteration: 0  Instance: /BurritoTB
+# 1
+# Break in Module BurritoTB at C:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v line 45
+# Break key hit
+vsim work.BR
+# End time: 21:41:07 on Sep 29,2025, Elapsed time: 0:04:23
+# Errors: 0, Warnings: 2
+# vsim work.BR 
+# Start time: 21:41:08 on Sep 29,2025
+# Loading work.BR
+vsim work.Burrito
+# End time: 21:41:28 on Sep 29,2025, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 1
+# vsim work.Burrito 
+# Start time: 21:41:28 on Sep 29,2025
+# Loading work.Burrito
+# Loading work.BR
+# Loading work.ALU
+vsim work.BurritoTB
+# End time: 21:43:24 on Sep 29,2025, Elapsed time: 0:01:56
+# Errors: 0, Warnings: 1
+# vsim work.BurritoTB 
+# Start time: 21:43:24 on Sep 29,2025
+# Loading work.BurritoTB
+# Loading work.Burrito
+# Loading work.BR
+# Loading work.ALU
+add wave -position end  sim:/BurritoTB/dut/BR_inst/Banco
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "Datos.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Lilia/Downloads/BR.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /BurritoTB/dut/BR_inst
+# ** Note: $finish    : C:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v(45)
+#    Time: 50 ns  Iteration: 0  Instance: /BurritoTB
+# 1
+# Break in Module BurritoTB at C:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v line 45
+vsim work.BurritoTB
+# End time: 21:52:56 on Sep 29,2025, Elapsed time: 0:09:32
+# Errors: 0, Warnings: 3
+# vsim work.BurritoTB 
+# Start time: 21:52:56 on Sep 29,2025
+# Loading work.BurritoTB
+# Loading work.Burrito
+# Loading work.BR
+# Loading work.ALU
+add wave -position end  sim:/BurritoTB/dut/BR_inst/Banco
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "Datos.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Lilia/Downloads/BR.v(15)
+#    Time: 0 ps  Iteration: 0  Instance: /BurritoTB/dut/BR_inst
+# ** Note: $finish    : C:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v(45)
+#    Time: 50 ns  Iteration: 0  Instance: /BurritoTB
+# 1
+# Break in Module BurritoTB at C:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v line 45
+# Compile of BR.v was successful.
+# Compile of Burrito.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BurritoTB.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.BurritoTB
+# End time: 22:23:24 on Sep 29,2025, Elapsed time: 0:30:28
+# Errors: 0, Warnings: 3
+# vsim work.BurritoTB 
+# Start time: 22:23:24 on Sep 29,2025
+# Loading work.BurritoTB
+# Loading work.Burrito
+# Loading work.BR
+# Loading work.ALU
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'BR_inst'.  Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /BurritoTB/dut/BR_inst File: C:/Users/Lilia/Downloads/Burrito.v Line: 13
+# ** Warning: (vsim-3722) C:/Users/Lilia/Downloads/Burrito.v(13): [TFMPC] - Missing connection for port 'clk'.
+add wave -position end  sim:/BurritoTB/dut/BR_inst/Banco
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "Datos.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Lilia/Downloads/BR.v(17)
+#    Time: 0 ps  Iteration: 0  Instance: /BurritoTB/dut/BR_inst
+# ** Note: $finish    : C:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v(45)
+#    Time: 50 ns  Iteration: 0  Instance: /BurritoTB
+# 1
+# Break in Module BurritoTB at C:/Users/Lilia/OneDrive/Documentos/B+ALU/BurritoTB.v line 45
+# End time: 00:50:16 on Sep 30,2025, Elapsed time: 2:26:52
+# Errors: 0, Warnings: 4

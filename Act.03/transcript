@@ -1,0 +1,22 @@
+# Compile of alu.v was successful.
+# Compile of alu_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.alu_tb
+# vsim work.alu_tb 
+# Start time: 16:51:34 on Sep 06,2025
+# Loading work.alu_tb
+# Loading work.alu
+add wave -position end  sim:/alu_tb/A
+add wave -position end  sim:/alu_tb/B
+add wave -position end  sim:/alu_tb/op_code
+add wave -position end  sim:/alu_tb/result
+add wave -position end  sim:/alu_tb/zero_flag
+add wave -position end  sim:/alu_tb/carry_flag
+run -all
+# ** Note: $finish    : C:/Users/Lilia/OneDrive/Documentos/Act.03/alu_tb.v(71)
+#    Time: 80 ps  Iteration: 0  Instance: /alu_tb
+# 1
+# Break in Module alu_tb at C:/Users/Lilia/OneDrive/Documentos/Act.03/alu_tb.v line 71
+quit -sim
+# End time: 19:27:35 on Sep 06,2025, Elapsed time: 2:36:01
+# Errors: 0, Warnings: 7

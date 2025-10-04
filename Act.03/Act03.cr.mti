@@ -1,0 +1,8 @@
+C:/Users/Lilia/OneDrive/Documentos/Act.03/alu_tb.v {1 {vlog -work work -stats=none C:/Users/Lilia/OneDrive/Documentos/Act.03/alu_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_tb
+
+Top level modules:
+	alu_tb
+
+} {} {}}

@@ -1,0 +1,50 @@
+module BancoDeRegistros_tb;
+
+	reg [4:0]  RR1;
+	reg [4:0]  RR2;
+	reg [4:0]  WriteRg;
+	reg [31:0] WriteData;
+	reg        RegWrite;
+
+	wire [31:0] RD1;
+	wire [31:0] RD2;
+
+	// "dut" (Device Under Test).
+	BancoDeRegistros dut (
+		.RR1(RR1),
+		.RR2(RR2),
+		.WriteRg(WriteRg),
+		.WriteData(WriteData),
+		.RegWrite(RegWrite),
+		.RD1(RD1),
+		.RD2(RD2)
+	);
+
+	initial 
+	begin
+		RR1       = 0;
+		RR2       = 0;
+		WriteRg   = 0;
+		WriteData = 0;
+		RegWrite  = 0;
+		
+		WriteRg   = 5;                  
+		WriteData = 32'hAAAAAAAA; 
+		RegWrite  = 1;                  
+		RegWrite  = 0; //Desactiva la escritura
+		
+		RR1 = 5;  // Lee
+		RR2 = 10; // Lee
+		
+		WriteRg   = 22;
+		WriteData = 32'hDEADBEEF;
+		RegWrite  = 1;
+		RegWrite  = 0;
+		
+		RR1 = 22;
+		RR2 = 5;  
+		
+		$finish; // Comando para terminar la simulacion
+	end
+
+endmodule
