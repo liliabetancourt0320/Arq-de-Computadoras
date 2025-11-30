@@ -1,0 +1,20 @@
+addi $t0, $zero, 0
+addi $t1, $zero, 0
+addi $t2, $zero, 5
+addi $t5, $zero, 0
+addi $t6, $zero, 50
+add $t7, $t0, $t1
+lw $t3, 0($t7)
+slt $t4, $t6, $t3
+beq $t4, $zero, 4
+andi $t4, $t3, 1
+addi $t8, $zero, 1
+beq $t4, $t8, 1
+add $t5, $t5, $t3
+addi $t1, $t1, 4
+addi $t9, $zero, 20
+beq $t1, $t9, 1
+j 0x00000014
+sw $t5, 100($zero)
+j 0x00000044
+
